@@ -1,0 +1,104 @@
+
+/* ---------header section styling -------> */
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #ffe4c4;
+    text-decoration: underline;
+    width: 100%;
+}
+
+.header h1 {
+    text-transform: capitalize;
+}
+
+
+/* ---------- quiz section styling -------> */
+.row {
+    display: flex;
+    margin-block: 20px;
+}
+
+
+/* --------quiz topics styling -------> */
+.row .topics {
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: column;
+    /* width: 100%;
+    height: 100%; */
+    /* background-color: #f7f7b5; */
+}
+
+.row .topics .button {
+    margin-block: 12px;
+    padding: 20px;
+    border-radius: 12px;
+    border: none;
+    background-color: #89bdea;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+/* ----------- quiz questions styling ---------> */
+.quiz-questions {
+    width: 100%;
+    margin-left: 50px;
+}
+
+li{
+    list-style: none;
+}
+
+.caution {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.questions p {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 12px;
+}
+
+.questions li {
+    padding: 5px;
+}
+
+
+/* --------submit button styling ------> */
+.submit-quiz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-quiz .submit-btn {
+    font-size: 20px;
+    background-color: #89bdea;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

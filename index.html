@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- -------header section-------> 
+    <div class="header">
+        <h1>Let's play a quiz game</h1>
+    </div>
+
+    <!-- ---------- quiz section------- -->
+    <div class="row">
+
+        <!-- -------quiz topics------ -->
+        <div class="topics">
+            <button class="button" onclick="displayMoviesData()">Movies</button>
+            <button class="button" onclick="displayScienceData()">Science</button>
+            <button class="button" onclick="displayHistoryData()">History</button>
+            <button class="button" onclick="displaySportsData()">Sports</button>
+            <button class="button" onclick="displayGKData()">GK</button>
+        </div>
+
+        <!-- --------- quiz questions--------- -->
+        <div class="quiz-questions">
+            <div class="caution"> Be Careful while choosing your answers</div>
+            
+            <div class="questions" id="data-container">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="submit-quiz"> 
+            <button class="submit-btn"  type="submit"  onclick="checkAnswer()" >Submit</button> 
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
